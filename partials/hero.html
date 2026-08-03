@@ -1,0 +1,70 @@
+<section class="min-h-screen pt-28 pb-16 flex items-center relative z-10">
+      <div
+        class="max-w-6xl mx-auto px-6 w-full grid md:grid-cols-12 gap-12 items-center"
+      >
+        <div class="md:col-span-7 space-y-6">
+          <div class="reveal">
+            <p class="section-label">Backend Developer</p>
+            <h1 class="hero-name text-4xl sm:text-6xl">
+              Afjal Hossain <br />
+              <span class="accent">Dali</span>
+            </h1>
+          </div>
+
+          <div class="reveal" style="transition-delay: 0.1s">
+            <p class="hero-subtitle text-xl flex items-center gap-2">
+              <i data-lucide="terminal" class="w-5 h-5"></i>
+              <span id="typing-text"
+                >Backend Engineer • Full Stack Developer</span
+              >
+            </p>
+          </div>
+
+          <div class="reveal" style="transition-delay: 0.2s">
+            <p class="hero-description text-base sm:text-lg max-w-xl">
+              Building robust, scalable backend systems with clean API design
+              and solid database architecture. Specialized in FastAPI, Node.js,
+              NestJS, and Laravel.
+            </p>
+          </div>
+
+          <div
+            class="reveal flex flex-wrap gap-4 pt-2"
+            style="transition-delay: 0.3s"
+          >
+            <button
+              onclick="
+                document
+                  .getElementById('projects')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
+              class="btn-primary"
+            >
+              <span>View Projects</span>
+              <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
+            </button>
+            <button
+              onclick="
+                document
+                  .getElementById('contact')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
+              class="btn-outline"
+            >
+              <span>Get in Touch</span>
+              <i data-lucide="mail" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="md:col-span-5 flex justify-center reveal-scale">
+          <div class="hero-img-wrap rounded-2xl">
+            <img
+              src="./profile.jpg"
+              alt="Afjal Hossain Dali"
+              class="w-72 h-72 sm:w-80 sm:h-80 object-cover rounded-2xl border border-emerald-500/20 shadow-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>

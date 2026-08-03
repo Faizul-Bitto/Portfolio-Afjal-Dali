@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afjal Hossain Dali | Backend Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ["Outfit", "sans-serif"],
+              body: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="font-body bg-[#0a0a0f] text-slate-200">
+    <!-- Cursor Glow Follower -->
+    <div id="cursor-glow"></div>
+
+    <!-- Background Mesh -->
+    <div class="bg-mesh"></div>
+
+    <!-- Scroll Progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- ============================================
+    SECTIONS LOADED FROM partials/ VIA script.js
+    ============================================ -->
+    <div id="partial-navbar"></div>
+    <div id="partial-hero"></div>
+    <div id="partial-about"></div>
+    <div id="partial-skills"></div>
+    <div id="partial-experience"></div>
+    <div id="partial-projects"></div>
+    <div id="partial-publications"></div>
+    <div id="partial-certifications"></div>
+    <div id="partial-education"></div>
+    <div id="partial-contact"></div>
+    <div id="partial-footer"></div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
