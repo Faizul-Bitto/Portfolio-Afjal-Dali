@@ -1,46 +1,52 @@
 <section id="projects" class="py-20 relative z-10">
-      <div class="max-w-5xl mx-auto px-6">
-        <div class="reveal-right">
-          <p class="section-label">Projects</p>
-          <h2 class="section-title">Featured Work</h2>
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="reveal-left">
+          <p class="section-label">Portfolio</p>
+          <h2 class="section-title">Featured Projects</h2>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-6 reveal-stagger">
+        <div class="grid md:grid-cols-2 gap-8 mt-12">
           <!-- Project 1: CrickPred -->
-          <div class="project-card flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="project-icon">
-                  <i data-lucide="cpu" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-stone-100">
+          <div class="project-card reveal">
+            <div class="flex items-start gap-4 mb-4">
+              <div class="project-icon">
+                <i data-lucide="cpu" class="w-6 h-6"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl font-bold text-slate-900 mb-2">
                   CrickPred: Cricket Predictions
                 </h3>
+                <span class="project-tech">Machine Learning</span>
               </div>
-              <span class="project-tech mb-3">Python</span>
-              <p class="text-stone-400 text-sm leading-relaxed mt-3 mb-6">
-                Machine learning system for ODI cricket score and win
-                probability prediction using Python.
-              </p>
+            </div>
+            <p class="text-slate-600 leading-relaxed mb-4">
+              Machine learning system for ODI cricket score and win probability prediction using Python. Developed predictive models using XGBoost, CatBoost, and LGBM algorithms.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs text-slate-600 bg-slate-100 px-3 py-1 rounded-full">Python</span>
             </div>
           </div>
 
           <!-- Project 2: GreenCycle -->
-          <div class="project-card flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <div class="project-icon">
-                  <i data-lucide="recycle" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-xl font-bold text-stone-100">
+          <div class="project-card reveal" style="transition-delay: 0.1s">
+            <div class="flex items-start gap-4 mb-4">
+              <div class="project-icon">
+                <i data-lucide="recycle" class="w-6 h-6"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-xl font-bold text-slate-900 mb-2">
                   GreenCycle: Waste Management
                 </h3>
+                <span class="project-tech">UI/UX Design</span>
               </div>
-              <span class="project-tech mb-3">UI/UX Design</span>
-              <p class="text-stone-400 text-sm leading-relaxed mt-3 mb-6">
-                Professional UI/UX design for waste management and recycling
-                platform.
-              </p>
+            </div>
+            <p class="text-slate-600 leading-relaxed mb-4">
+              Professional UI/UX design for waste management and recycling platform. Created intuitive interfaces for efficient waste tracking and management systems.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs text-slate-600 bg-slate-100 px-3 py-1 rounded-full">UI/UX Design</span>
+              <span class="text-xs text-slate-600 bg-slate-100 px-3 py-1 rounded-full">Figma</span>
+              <span class="text-xs text-slate-600 bg-slate-100 px-3 py-1 rounded-full">Prototyping</span>
             </div>
           </div>
         </div>
